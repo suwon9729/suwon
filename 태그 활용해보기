@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta  http-equiv="x-ua-compatible" content="IE=edge" >
+    <meta name="author"content="강수원">
+    <meta name="description"content="과제 페이지">
+    <meta name="keywords"content="공부,html,실습">
+    <title>태그 활용해서 리스트 만들어보기</title>
+</head>
+<body>
+    <header> 
+        <h1> 대한민국은 4계절의 나라입니다. <br> 좋아하는 계절은? </h1>
+        <p> 아래 항목 중 하나를 골라주세요.</p>
+    </header>
+    <br>
+    <main>
+        <fieldset>
+            <legend>대한민국 계절</legend>
+            <ul>
+                <li>봄</li>
+                <li>여름</li>
+                <li>가울</li>  
+                <li>겨울</li>
+            </ul>
+        </fieldset>
+        <select>
+            <option value="spring">봄</option>
+            <option value="summer">여름</option>
+            <option value="fall" selected >가을</option>
+            <option value="winter">겨울</option>
+        </select>
+    </main>
+    <footer>
+        <input type="submit">
+        <p>참여해주셔서 대단히 감사합니다.</p>
+    </footer>
+</body>
+</html>
