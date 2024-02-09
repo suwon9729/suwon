@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Gasoek One', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+html{
+    background-color: #f5f5dc;
+    font-size: 10px;
+}
+
+body{
+    width: 640px; /* 박스 모델을 꾸밀때 사용하는 트릭*/
+    margin: auto;   /* 너비에서 남는 여백을 동일하게 분배한다는 뜻 */
+
+}
+
+h1{
+    font-size: 48px;
+    font-style: inherit;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    /* 기본 css 
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+    color: white;
+    background-color: #51ff1c52;
+    font-size: 2rem;
+    font-weight: 600;*/
+    /* 테투리 css */
+    border: 10px solid transparent;
+    transition: box-shadow 0.3s ease-in-out;
+
+    /* 기본 css */
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+    color: white;
+    background-color: #fbff00;
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    
+}
+.img:hover,
+.img:focus {
+  box-shadow: 0 0 0 3px #d27b7b;
+}
+p{
+    font-size: 2.0rem;
+}
